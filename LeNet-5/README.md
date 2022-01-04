@@ -1,6 +1,8 @@
 Gradient-Based Learning Applied to Document Recognition (LeNet-5) [1998]
 - Yann LeCun Leon Bottou Yoshua Bengio and Patrick Haffner
 
+https://ieeexplore.ieee.org/abstract/document/726791
+
 *Key Points*
 
 1. Local Receptive Fields

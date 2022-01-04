@@ -1,6 +1,8 @@
 Very Deep Convolutional Networks for Large-Scale Image Recognition [2015]
 - Karen Simonyan, Andrew Zisserman
 
+https://arxiv.org/pdf/1409.1556.pdf
+
 *Key Points* [+ Because only 3x3 filter was used, the depth could be increased.]
 
 1. Compared to the previous AlexNet, we doubled the depth of the model by using a 3x3 filter. (All conv layer using 3x3 filter size)

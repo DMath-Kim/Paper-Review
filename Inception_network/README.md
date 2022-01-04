@@ -15,7 +15,7 @@ ex) Assume that without bias
 Input feature (28x28x128) -> 1x1 conv (32 filters)-> 3x3 conv (64 filters) : 28x28x32x1x1x128 + 28x28x64x3x3x32 ~= 1.7M
 Input feature (28x28x128) -> 3x3 conv (64 filters) : 28x28x64x3x3x128 ~= 5.7M
 
-2. Inception Module
+2. Inception Module (Using bottleneck)
 
 Before the description of inception, we should look at the typical problems of CNN in the image recognition problem.
 In order to have a serviceable level of recognition rate using deep learning, it is necessary to learn a large amount of data. In the architecture of deep learning (CNN Architecture), the view is that the recognition rate is good when the layers are wide (there are many neurons) and deep (there are many layers). However, deep learning has always been difficult to break away from problems such as learning time and computation speed along with problems such as overfitting and vanishing gradient problems in this situation.

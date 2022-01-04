@@ -1,6 +1,8 @@
 ImageNet Classification with Deep Convolutional Neural Networks [2012]
 - Alex Krizhevsky, Ilya Sutskever, Geoffrey E. Hinton
 
+https://proceedings.neurips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+
 *Key Points*
 
 1. The FC layer was tuned to distinguish a very large number of classes.

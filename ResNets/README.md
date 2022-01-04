@@ -1,6 +1,8 @@
 Deep Residual Learning for Image Recognition [2015]
 - Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun
 
+https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf
+
 *Key Points % New Approach*
 
 Residual block (skip connection)

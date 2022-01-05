@@ -39,3 +39,35 @@ Add term --> Determine what to remove from the previous information
 Previous information update + Current information update
 
 ![finalmemoryatcurrenttimestep](https://user-images.githubusercontent.com/96281316/148239925-c0024ced-7cfe-46eb-9294-3476f23863e1.png)
+
+<h5>ADD LSTM (Long Short Term Memory)</h5>
+
+LSTM was designed to overcome the long-term dependency problem faced by RNN (Vanishing Gradients)
+
+*Key points*
+
+1. Forget gate (How much irrelevant data to remove from memory)
+
+If components(newly input data + previous hidden state) are deemed irrelevant then forget gate is close to 0.
+
+when relevant is close to 1
+
+2. New Memory Network (Input gate)
+
+[ Inputs are actually the same as the inputs to the forget gate. ]
+
+Previous hidden cell and new input data to generate a new memory update vector.
+
+Using tanh activation function
+
+Apply sigmoid function to newly input data. This is because a value between 0 and 1 is returned to receive the ratio of how useful and usable input data to be used is new.
+
+3. Output gate
+
+Use newly updated cell state, previous hidden state, new input
+
+just output this small network
+
+figure by https://ko.wikipedia.org/wiki/%EC%9E%A5%EB%8B%A8%EA%B8%B0_%EB%A9%94%EB%AA%A8%EB%A6%AC
+
+![LSTM_Cell](https://user-images.githubusercontent.com/96281316/148262972-c7be7761-eaf1-45a7-9b4e-7c1c6c235a6b.png)
